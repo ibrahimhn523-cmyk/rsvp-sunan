@@ -1,0 +1,2 @@
+.grid2{display:grid;grid-template-columns:1fr;gap:8px}
+@media (min-width:900px){.grid2{grid-template-columns:1fr 1fr}}
