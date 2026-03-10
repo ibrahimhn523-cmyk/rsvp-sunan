@@ -1,0 +1,10 @@
+:root{--color-primary:#2A3F46;--color-secondary:#7D7168;--color-background:#F3EFE9;--color-muted:#8C847D;--color-white:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Tahoma,sans-serif;background:var(--color-background);color:var(--color-primary);direction:rtl}
+header,footer{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:var(--color-primary);color:#fff}
+main{max-width:860px;margin:auto;padding:16px}.card{background:#fff;border-radius:12px;padding:16px;margin-bottom:12px}
+input,select,button,textarea{width:100%;padding:10px;margin:6px 0;border:1px solid #ddd;border-radius:8px}
+button{background:var(--color-primary);color:#fff;border:none;cursor:pointer}.muted{color:var(--color-muted)}
+table{width:100%;border-collapse:collapse}th,td{padding:8px;border-bottom:1px solid #eee;text-align:right}
+.logo{height:40px;object-fit:contain;background:#fff;border-radius:8px}
+.nav a{color:#fff;text-decoration:none;margin-inline-start:10px}
+@media (min-width:768px){main{padding:24px}}
